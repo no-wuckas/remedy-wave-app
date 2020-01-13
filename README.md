@@ -7,3 +7,4 @@ This prototype is a prototype for a web app created in Graphic Design's Web Dev 
 - Jazmin Katz <https://github.com/katz0018>
 - Annie Pandolfi <https://github.com/hovski>
 - Nila Babaei <https://github.com/nilababaei>
+- Fatima Khan <https://github.com/fkhan24>
