@@ -1,4 +1,4 @@
-# No wucka's app prototype
+# Remedy wave app prototype
 
 This prototype is a prototype for a web app created in Graphic Design's Web Dev 6 course. It is an organization app that helps users find trustworthy funding resources for Australia.
 
