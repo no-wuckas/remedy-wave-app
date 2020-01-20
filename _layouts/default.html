@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <div>
+    {% pattern header/header %}
+  </div>
+
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
+
+  <div role="contentinfo" tabindex="0">
+    {% pattern footer/footer %}
+  </div>
+
+</body>
+</html>

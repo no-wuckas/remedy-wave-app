@@ -2,4 +2,24 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Remedy Wave"
+  description: |
+    An organization app that helps users find trustworthy funding resources for Australia.
   font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
+  colors:
+    background: "--color-secondary"
+    accent: "--color-primary"
+    patterns:
+      brand-logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Rubik was selected because it is a clean and readable font that can be used for headings and body copy.
+    colors.primary: |
+      The primary colours are a set of monochromatic colours which are used for text & background colour.
+    colors.secondary: |
+      The secondary colour is the brand's defined colour which will be used for banners and text decor.
+    colors.accent: |
+      The accent colour is to be used as a hover state throughout the website.
+  layouts:
+    default: |
+      The default layout should be used for every page, it includes the website's primary header & footer.
