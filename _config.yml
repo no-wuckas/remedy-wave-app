@@ -5,21 +5,23 @@ patternbot:
   title: "Remedy Wave"
   description: |
     An organization app that helps users find trustworthy funding resources for Australia.
-  font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
+  font_url: "https://use.typekit.net/tiq7kmu.css"
   colors:
-    background: "--color-secondary"
-    accent: "--color-primary"
+    background: "--color-primary-light"
+    accent: "--color-primary-blue"
     patterns:
-      brand-logos: "--color-secondary"
+      brand-logos: "--color-secondary-lightblue"
   rationales:
     typefaces.primary: |
-      Rubik was selected because it is a clean and readable font that can be used for headings and body copy.
+      Canada Type Gibson was selected because it is a clean and readable font that can be used for body copy.
+    typefaces.secondary: |
+      Montserrat was selected because it is a clean and readable font that can be used for headings.
     colors.primary: |
-      The primary colours are a set of monochromatic colours which are used for text & background colour.
+      The primary colours are an ocean blue and a plain white. These were chosen to be used throughout the website for background and text colour.
     colors.secondary: |
-      The secondary colour is the brand's defined colour which will be used for banners and text decor.
+      The secondary colour is a light blue that is used for links and hover states for buttons.
     colors.accent: |
-      The accent colour is to be used as a hover state throughout the website.
+      The accent colours are to be used throughout the website on different pages. They will be used for background colours and gradients.
   layouts:
     default: |
       The default layout should be used for every page, it includes the website's primary header & footer.

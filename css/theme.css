@@ -1,11 +1,24 @@
 :root {
-  --color-primary: #000;
-  --color-secondary: #e2e2e2;
+  --color-primary-blue: #4877ef;
+  --color-primary-light: #ffffff;
+  --color-secondary-light-blue: #3daaf4;
+  --color-accent-red: #ff5a61;
+  --color-accent-orange-dark: #ff574a;
+  --color-accent-orange-light: #fd821e;
+  --color-accent-yellow-dark: #ff9638;
+  --color-accent-yellow-light: #ffd301;
+  --color-accent-green-dark: #06c069;
+  --color-accent-green-light: #06e07c;
+  --color-accent-purple: #a858ed;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Sans Pro", Menlo, Consolas, monospace;
+  --font-primary: "Canada-Type-Gibson", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
 }
