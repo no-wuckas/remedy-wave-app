@@ -1,0 +1,49 @@
+.text-blue {
+  color: var(--color-primary-blue);
+}
+
+.text-bg {
+  background-color: var(--color-accent-light-blue);
+}
+
+.picture-row-bg {
+  background-color: var(--color-accent-purple);
+}
+
+.double-picture-row-bg {
+  background-color: var(--color-accent-red);
+}
+
+.text-white {
+  color: var(--color-primary-light);
+}
+
+.logo-image {
+  padding: 2.5px;
+}
+
+.logo-icon:hover {
+  transform: scale(1.1);
+  transition: all 250ms linear;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .push-right {
+    margin-right: 25px;
+  }
+
+  .push-left {
+    margin-left: 25px;
+  }
+
+  .logo {
+    margin-right: 50px;
+  }
+
+  .special-icon.i-128, .special-icon.i--128 {
+    width: 192px;
+    height: 192px;
+  }
+
+}
