@@ -1,0 +1,32 @@
+.white-header {
+  color: var(--color-primary-light);
+}
+
+.white-text {
+  color: var(--color-primary-light);
+}
+
+.bkg-orange {
+  background-image: linear-gradient(33deg, var(--color-accent-orange-light), var(--color-accent-red));
+  height: 100%;
+}
+
+.bkg-blue {
+  background-image: linear-gradient(33deg, var(--color-secondary-light-blue), var(--color-primary-blue));
+  height: 100%;
+}
+
+.bkg-green {
+  background-image: linear-gradient(33deg, var(--color-accent-green-light), var(--color-accent-green-light));
+  height: 100%;
+}
+
+.bkg-purple {
+  background-image: linear-gradient(33deg, var(--color-accent-purple), var(--color-primary-blue));
+  height: 100%;
+}
+
+.bkg-yellow {
+  background-image: linear-gradient(33deg, var(--color-accent-yellow-light), var(--color-accent-orange-light));
+  height: 100%;
+}
