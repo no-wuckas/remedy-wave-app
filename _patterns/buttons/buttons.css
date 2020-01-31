@@ -1,0 +1,11 @@
+.btn {
+  background-color: var(--color-primary-light);
+  border-radius: 0;
+  border-color: none;
+  border: none;
+}
+
+.btn a {
+    color: var(--color-accent-orange-light);
+    text-decoration: none;
+}
