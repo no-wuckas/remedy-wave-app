@@ -6,6 +6,14 @@
 }
 
 .btn a {
-    color: var(--color-accent-orange-light);
-    text-decoration: none;
+  color: var(--color-primary-blue);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-light)
+}
+
+a:hover {
+  color: var(--color-accent-orange-light);
 }
