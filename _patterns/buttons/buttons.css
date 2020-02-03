@@ -11,9 +11,9 @@
 }
 
 .btn:hover {
-  background-color: var(--color-primary-light)
+  background-color: var(--color-accent-orange-light);
 }
 
-a:hover {
-  color: var(--color-accent-orange-light);
+.btn a:hover {
+  color: var(--color-primary-light);
 }
