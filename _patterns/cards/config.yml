@@ -2,3 +2,9 @@ description: |
   The cards section is to be used where there is need for a call-to-action to include a card that will link to a project page.
 
   Cards can be combined with buttons, and be placed in banners and sections.
+
+patterns:
+  cards:
+    title: "Info Card"
+    description: |
+      Info card can be used to describe each cause and directs the user to the organizations pages for each.
