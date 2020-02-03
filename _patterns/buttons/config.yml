@@ -9,3 +9,10 @@ patterns:
     title: "Main Button"
     description: |
       Main button used throughout the web app.
+    fields:
+      - name: color
+        type: string
+        example: "btn-orange"
+      - name: link
+        type: string
+        example: "#"

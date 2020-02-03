@@ -1,14 +1,14 @@
 <div class="info-card">
   <div class="gutter pad-t-2 text-center">
     <div class="text-center">
-      <i class="card-image"><svg class="img-flex"><use xlink:href="/images/icons.svg#humanaid-icon"></use></svg></i>
+      <i class="card-image"><svg class="img-flex"><use xlink:href="/images/icons.svg#{{include.icon}}"></use></svg></i>
     </div>
     <div class="card-content pad-t">
-      <h3 class="card-head mega normal">Wild Bush Fires</h3>
-      <p class="card-text micro">Bushfires are very common throughout Australia. They impact extensive areas and have killed over 800 people and millions of animals.</p>
+      <h3 class="card-head mega normal">{{include.title}}</h3>
+      <p class="card-text micro">{{include.description}}</p>
     </div>
     <div class="card-button pad-t">
-      {% pattern buttons/button %}
+      {% pattern buttons/button color="btn-blue" %}
     </div>
   </div>
 </div>
