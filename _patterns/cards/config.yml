@@ -4,7 +4,7 @@ description: |
   Cards can be combined with buttons, and be placed in banners and sections.
 
 patterns:
-  cards:
+  info-card:
     title: "Info Card"
     description: |
       Info card can be used to describe each cause and directs the user to the organizations pages for each.
