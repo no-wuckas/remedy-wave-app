@@ -1,0 +1,8 @@
+.info-card {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-light);
+}
+
+h3 {
+  font-family: var(--font-primary);
+}
