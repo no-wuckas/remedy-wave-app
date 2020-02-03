@@ -2,3 +2,10 @@ description: |
   The buttons chosen for this website have a focus on the minimalist and round style that is incorporated throughout the branding.
 
   Buttons can be combined with cards, banners, and forms.
+
+
+patterns:
+  button:
+    title: "Main Button"
+    description: |
+      Main button used throughout the web app.
