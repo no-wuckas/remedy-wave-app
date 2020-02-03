@@ -1,15 +1,19 @@
 nav li a {
   text-decoration: none;
-  color: var(--color-primary);
+  color: var(--color-primary-blue);
 }
 
 li a:hover {
-  color: #537FEF;
+  color: var(--color-primary-blue);
 }
 
 focus:active {
   padding-bottom: .2em;
-  border-bottom: solid 3px var(--color-primary);
+  border-bottom: solid 3px var(--color-primary-blue);
+}
+
+label {
+  vertical-align: top;
 }
 
 .nav-1 {
@@ -49,18 +53,13 @@ focus:active {
 }
 
 .text-decoration {
-  color: var(--color-secondary);
-}
-
-
-.transparent {
-  background-color: var(--color-primary);
+  color: var(--color-primary-light);
 }
 
 .decoration {
   text-decoration: none;
   list-style: none;
-  color: var(--color-secondary);
+  color: var(--color-primary-light);
 }
 /**
 .header-fixed {
