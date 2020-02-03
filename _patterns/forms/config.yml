@@ -2,3 +2,21 @@ description: |
   The form fields are to be used on the "Contact Us" page in order for the user to send a direct message.
 
   Forms can be combined with buttons.
+patterns:
+  contactus:
+    title: "Contact Us"
+    description: |
+      This will be the a textarea field that people can leave a brief paragraph talking about why they're contacting our company. Website users will ask us questions here and use the submit button that's been added below the text field area.
+  email:
+    title: "Email"
+    description: |
+      This will be part of our contact form where the user will input their email address. This isn't optional and the user is forced to give us this information.
+  name:
+    title: "Name"
+    description: |
+      This will be a part of our contact form where the user will input their full name. This isn't optional and the user is forced to give us this information.
+      patterns:
+  phone:
+    title: "Phone Number"
+    description: |
+      This will be a part of our contact form where the user will leave us their personal phone numbers to reach them if we must do so. This is optional, users are not forced to offer their phone numbers unless they feel the desire to do so.
