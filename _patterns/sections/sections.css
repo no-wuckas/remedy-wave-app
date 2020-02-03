@@ -5,10 +5,7 @@
 #image-1-control:checked ~ .carousel-inner #image-1,
 #image-2-control:checked ~ .carousel-inner #image-2,
 #image-3-control:checked ~ .carousel-inner #image-3,
-#image-4-control:checked ~ .carousel-inner #image-4,
-#image-5-control:checked ~ .carousel-inner #image-5,
-#image-6-control:checked ~ .carousel-inner #image-6,
-#image-7-control:checked ~ .carousel-inner #image-7 {
+#image-4-control:checked ~ .carousel-inner #image-4 {
   display: block;
 }
 
@@ -20,20 +17,14 @@
 #image-1-control:checked ~ .carousel-inner [for="image-1-control"],
 #image-2-control:checked ~ .carousel-inner [for="image-2-control"],
 #image-3-control:checked ~ .carousel-inner [for="image-3-control"],
-#image-4-control:checked ~ .carousel-inner [for="image-4-control"],
-#image-5-control:checked ~ .carousel-inner [for="image-5-control"],
-#image-6-control:checked ~ .carousel-inner [for="image-6-control"],
-#image-7-control:checked ~ .carousel-inner [for="image-7-control"] {
+#image-4-control:checked ~ .carousel-inner [for="image-4-control"] {
   background-color: var(--color-accent-orange-dark);
 }
 
 #image-1-control:focus ~ .carousel-inner [for="image-1-control"],
 #image-2-control:focus ~ .carousel-inner [for="image-2-control"],
 #image-3-control:focus ~ .carousel-inner [for="image-3-control"],
-#image-4-control:focus ~ .carousel-inner [for="image-4-control"],
-#image-5-control:focus ~ .carousel-inner [for="image-5-control"],
-#image-6-control:focus ~ .carousel-inner [for="image-6-control"],
-#image-7-control:focus ~ .carousel-inner [for="image-7-control"] {
+#image-4-control:focus ~ .carousel-inner [for="image-4-control"] {
   outline-style: solid;
   outline-width: 3px;
   outline-color: var(--color-secondary-light-blue);
