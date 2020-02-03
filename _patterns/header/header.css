@@ -1,0 +1,80 @@
+nav li a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+li a:hover {
+  color: #537FEF;
+}
+
+focus:active {
+  padding-bottom: .2em;
+  border-bottom: solid 3px var(--color-primary);
+}
+
+.nav-1 {
+  display: none;
+}
+
+.nav-check{
+  position: absolute;
+  top: -4%;
+}
+
+.nav-check:checked ~ .nav-1 {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.text-decoration {
+  color: var(--color-secondary);
+}
+
+
+.transparent {
+  background-color: var(--color-primary);
+}
+
+.decoration {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-secondary);
+}
+/**
+.header-fixed {
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  transition: color .2s linear;
+}
+
+.logo i {
+  color: currentcolor;
+  width: 96px;
+  height: 56px;
+}
+/**
