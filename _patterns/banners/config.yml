@@ -2,3 +2,8 @@ description: |
   The banner section is to be used where there is need for a call-to-action of some sorts or a section of text that is paired with a background colour.
 
   Banners can be combined with buttons.
+patterns:
+  main-banner:
+    title: "Main-Banner"
+    description: |
+      This will be the standard banner that will always appear at the top of the page. The navigation/header will be placed (via patterns) ontop of this (transparently).
