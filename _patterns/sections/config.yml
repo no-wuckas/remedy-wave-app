@@ -7,10 +7,57 @@ patterns:
     title: "Text Banners"
     description: |
       This will be full width web banners that contains 2 text paragraphs with an subheader discussing the topic at hand. Background will always remain white and the text will always remain this variation of blue text.
+    fields:
+      - name: title
+        type: string
+        example: "What Are Bush Fires?"
+      - name: first-paragraph
+        type: string
+        example: "Bushfires have always been a part of Australia’s ecology and environment. Some of the country’s native flora have evolved to rely on bushfires for reproduction, and fire events have been an interwoven part of the ecology of the continent for thousands of years. Aboriginal Australians used to use fire to clear grasslands for hunting and to clear tracks through dense vegetation; however, this was only in periods of high rainfall and very small grassland zones bordering desert."
+      - name: second-paragraph
+        type: string
+        example: "Nowadays, bush fires are a leading cause of the declining population of animals and plants throughout Australia. In January 2020, it was estimated that over 1.25 billion animals have died in the 2019-2020 Australian bushfire season alone. As the fires continue to spread throughout Australia, there are many efforts being made to control and cease the fires."
   single-logo-line:
     title: "Single Logo Line"
     description: |
       This will be a banner that has a header discussing the topic at hand (whichever awareness program our page is on) and icons lined up below (for that organization).
+    fields:
+      - name: bg-color
+        type: string
+        example: "picture-row-bgpurple"
+      - name: description
+        type: string
+        example: "All donations made towards Bush Fire Awareness, will go towards these wonderful Organizations."
+      - name: photo1
+        type: string
+        example: "bush-fires/world-wildlife-fund"
+      - name: photo2
+        type: string
+        example: "bush-fires/australian-red-cross"
+      - name: photo3
+        type: string
+        example: "bush-fires/nsw-rural-fire-services"
+      - name: photo4
+        type: string
+        example: "bush-fires/sa-country-fire-service"
+      - name: photo5
+        type: string
+        example: "bush-fires/vic-country-fire-authority"
+      - name: link1
+        type: string
+        example: "#"
+      - name: link2
+        type: string
+        example: "#"
+      - name: link3
+        type: string
+        example: "#"
+      - name: link4
+        type: string
+        example: "#"
+      - name: link5
+        type: string
+        example: "#"
   interactive-map:
     title: "Interactive Map"
     description: |

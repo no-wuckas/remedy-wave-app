@@ -2,3 +2,22 @@ description: |
   This will be the standard banner that will always appear at the top of the page. The navigation/header will be placed (via patterns) ontop of this (transparently).
 
   Banners can be combined with buttons.
+
+patterns:
+  main-banner:
+    title: "Main Banner"
+    description: |
+      This will be the standard banner that will always appear at the top of the page. The navigation/header will be placed (via patterns) ontop of this (transparently).
+    fields:
+      - name: title
+        type: string
+        example: "Help make a difference in Australia."
+      - name: description
+        type: string
+        example: "Remedy Wave is an organization that helps users find trustworthy funding resources for Australia. Check out our donation section below."
+      - name: bgcolor
+        type: string
+        example: "bkg-orange"
+      - name: button_color
+        type: string
+        example: "btn-orange"

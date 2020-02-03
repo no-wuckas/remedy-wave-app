@@ -5,15 +5,35 @@
   border: none;
 }
 
-.btn a {
-  color: var(--color-primary-blue);
-  text-decoration: none;
-}
-
 .btn:hover {
   background-color: #000;
 }
 
 .btn:hover a {
+  color: var(--color-primary-light);
+}
+
+.btn-orange a {
   color: var(--color-accent-orange-light);
+  text-decoration: none;
+}
+
+.btn-blue a {
+  color: var(--color-secondary-light-blue);
+  text-decoration: none;
+}
+
+.btn-green a {
+  color: var(--color-accent-green-light);
+  text-decoration: none;
+}
+
+.btn-purple a {
+  color: var(--color-accent-purple);
+  text-decoration: none;
+}
+
+.btn-yellow a {
+  color: var(--color-accent-yellow-light);
+  text-decoration: none;
 }

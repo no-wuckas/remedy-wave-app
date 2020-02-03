@@ -18,8 +18,9 @@ label {
 
 .nav-1 {
   display: none;
-  top: 10px;
+  top: 50px;
   right: 0;
+  width: 15em;
 }
 
 .nav-check{
@@ -63,19 +64,19 @@ label {
   list-style: none;
   color: var(--color-primary-light);
 }
-/**
-.header-fixed {
-  position: fixed;
-  top: 0;
+
+.logo-icon {
+  width: 30px;
 }
 
-.logo {
-  transition: color .2s linear;
+.title {
+  display: none;
 }
 
-.logo i {
-  color: currentcolor;
-  width: 96px;
-  height: 56px;
+@media only screen and (min-width: 38em) {
+
+  .title {
+    display: inline-block;
+  }
+
 }
-/**

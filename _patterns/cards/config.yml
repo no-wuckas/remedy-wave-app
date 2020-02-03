@@ -8,3 +8,13 @@ patterns:
     title: "Info Card"
     description: |
       Info card can be used to describe each cause and directs the user to the organizations pages for each.
+    fields:
+      - name: title
+        type: string
+        example: "Bush Fires"
+      - name: description
+        type: string
+        example: "Bushfires are very common throughout Australia. They impact extensive areas and have killed over 800 people and millions of animals."
+      - name: icon
+        type: string
+        example: "humanaid-icon"
