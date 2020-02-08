@@ -4,7 +4,7 @@ description: |
   The header can be combined with navigation, icons, images, and animation.
 
 patterns:
-  main-banner:
+  header:
     title: "header"
     description: |
       This is a simple header that will be placed on top of the main banner using a background transperancy. This is also part of the default layout.

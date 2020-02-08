@@ -4,7 +4,7 @@ description: |
   The footer can be combined with navigation, icons, and colour.
 
 patterns:
-  main-banner:
+  footer:
     title: "footer"
     description: |
       This is a basic footer that will be used as part of the default layout. It will be placed at the bottom of every page.
