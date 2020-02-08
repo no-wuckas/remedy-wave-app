@@ -2,3 +2,16 @@ description: |
   The header is created with a simple design that is meant to match the style of the business through simplicity and colour.
 
   The header can be combined with navigation, icons, images, and animation.
+
+patterns:
+  main-banner:
+    title: "header"
+    description: |
+      This is a simple header that will be placed on top of the main banner using a background transperancy. This is also part of the default layout.
+    fields:
+      - name: text
+        type: string
+        example: "Bushfires"
+      - name: link
+        type: string
+        example: "#"

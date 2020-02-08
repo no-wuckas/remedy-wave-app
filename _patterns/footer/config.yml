@@ -2,3 +2,16 @@ description: |
   The footer is created with a simple design that is meant to match the style of the business through simplicity and colour.
 
   The footer can be combined with navigation, icons, and colour.
+
+patterns:
+  main-banner:
+    title: "footer"
+    description: |
+      This is a basic footer that will be used as part of the default layout. It will be placed at the bottom of every page.
+    fields:
+      - name: text
+        type: string
+        example: "Bushfires"
+      - name: link
+        type: string
+        example: "#"
