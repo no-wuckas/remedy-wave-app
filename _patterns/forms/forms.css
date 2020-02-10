@@ -19,3 +19,11 @@ input {
 .ltblue-text {
   color: var(--color-accent-yellow-light);
 }
+
+@media only screen and (min-width: 38em) {
+
+  .space-r {
+    margin-right: 1em;
+  }
+
+}

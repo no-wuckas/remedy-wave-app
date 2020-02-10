@@ -18,3 +18,6 @@ patterns:
       - name: icon
         type: string
         example: "humanaid-icon"
+      - name: button_link
+        type: string
+        example: "#"
