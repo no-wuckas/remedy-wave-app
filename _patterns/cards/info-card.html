@@ -1,5 +1,5 @@
-<div class="info-card">
-  <div class="gutter pad-t-2 text-center">
+<div class="info-card unit-content-distribute content-fill">
+  <div class="gutter pad-t-2 text-center unit-content-distribute content-fill">
     <div class="text-center">
       <i class="card-image">
         <svg class="img-flex">
@@ -7,12 +7,12 @@
         </svg>
       </i>
     </div>
-    <div class="card-content pad-t">
+    <div class="card-content pad-t content-fill">
       <h3 class="card-head mega normal">{{include.title}}</h3>
       <p class="card-text micro">{{include.description}}</p>
     </div>
     <div class="card-button pad-t">
-      {% pattern buttons/button color="btn-blue" %}
+      {% pattern buttons/button text="Donate" color="btn-blue" %}
     </div>
   </div>
 </div>

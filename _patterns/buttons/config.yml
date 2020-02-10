@@ -10,6 +10,9 @@ patterns:
     description: |
       Main button used throughout the web app.
     fields:
+      - name: text
+        type: string
+        example: "Donate"
       - name: color
         type: string
         example: "btn-orange"
