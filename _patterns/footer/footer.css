@@ -5,3 +5,16 @@
 .foot-span {
   color: var(--color-primary-blue);
 }
+
+.social-footer {
+  min-width: 5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .social-footer {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+
+}

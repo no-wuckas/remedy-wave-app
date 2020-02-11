@@ -20,3 +20,15 @@ patterns:
     title: "Phone Number"
     description: |
       This will be a part of our contact form where the user will leave us their personal phone numbers to reach them if we must do so. This is optional, users are not forced to offer their phone numbers unless they feel the desire to do so.
+  required-phone:
+    title: "Required Phone Number"
+    description: |
+      This will be a part of our donate form where the user will input their phone number.
+  amount:
+    title: "Amount"
+    description: |
+      This will be a part of our donate form where the user will input the amount they wish to donate.
+  comments:
+    title: "Comments"
+    description: |
+      This will be a part of our donate form where the user can have a space to comment if they wish to do so.
