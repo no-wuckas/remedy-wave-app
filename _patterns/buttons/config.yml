@@ -19,3 +19,7 @@ patterns:
       - name: link
         type: string
         example: "#"
+  special-button:
+    title: "Special Button"
+    description: |
+      The button used for the donation form.
