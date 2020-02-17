@@ -7,15 +7,18 @@ patterns:
     title: "Contact Us"
     description: |
       This will be the a textarea field that people can leave a brief paragraph talking about why they're contacting our company. Website users will ask us questions here and use the submit button that's been added below the text field area.
+    background: "--color-secondary-light-blue"
   email:
     title: "Email"
     description: |
       This will be part of our contact form where the user will input their email address. This isn't optional and the user is forced to give us this information.
+    background: "--color-accent-green-light"
   name:
     title: "Name"
     description: |
       This will be a part of our contact form where the user will input their full name. This isn't optional and the user is forced to give us this information.
       patterns:
+    background: "--color-accent-orange-light"
   phone:
     title: "Phone Number"
     description: |
@@ -32,3 +35,4 @@ patterns:
     title: "Comments"
     description: |
       This will be a part of our donate form where the user can have a space to comment if they wish to do so.
+    background: "--color-accent-purple"
