@@ -5,7 +5,7 @@ description: |
 
 patterns:
   header:
-    title: "header"
+    title: "Header"
     description: |
       This is a simple header that will be placed on top of the main banner using a background transperancy. This is also part of the default layout.
     background: "--color-secondary-light-blue"
@@ -17,7 +17,7 @@ patterns:
         type: string
         example: "#"
   navigation:
-          title: "navigation"
-          description: |
-            This is a simple hamburger nav that will be used on the header to access all the organization pages.
-          background: "--color-accent-orange-dark"
+    title: "Navigation"
+    description: |
+      This is a simple navigation that will be added to the main header. It contains the dropdown menu content.
+    background: "--color-accent-orange-dark"

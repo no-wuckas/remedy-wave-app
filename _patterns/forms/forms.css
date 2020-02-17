@@ -20,10 +20,15 @@ input {
   color: var(--color-accent-yellow-light);
 }
 
+.comment-text {
+  font-family: var(--font-primary);
+  font-weight: normal;
+}
+
 @media only screen and (min-width: 38em) {
 
   .space-r {
-    margin-right: 1em;
+    margin-right: 2em;
   }
 
 }

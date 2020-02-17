@@ -4,19 +4,29 @@ highlight_nav: contact
 title: "Donate · Remedy Wave"
 ---
 
-<div class="bkg-blue">
+<div class="bkg-orange2">
 
   {% pattern header/header %}
 
-  <div class="island-2 max-length">
-    <div class="">
-      {% pattern forms/name %}
-      {% pattern forms/email %}
-      {% pattern forms/phone %}
-    </div>
-
-    {% pattern buttons/button text="Donate" color="btn-blue" %}
+  <div class="wrapper gutter-2">
+    <h6 class="white-text milli push-0">The way that Remedy Wave works is that we've partnered with all the organizations listed throughout the website to create a donation pool, where all your funds will be added. Once the donation is dropped into the pool, the total amount at the end of the month will be distributed evenly to all organizations. This process was developed to create a simple and effective system for helping organizations do their work and focus on the issue at hand rather than having to worry about funding. We do that for them.</h6>
   </div>
 
+  <div class="grid gutter-2 pad-t-2 wrapper">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      {% pattern forms/name %}
+      {% pattern forms/email %}
+      {% pattern forms/required-phone %}
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      {% pattern forms/amount %}
+      {% pattern forms/comments %}
+    </div>
+  </div>
+
+  <div class="text-left gutter-2 pad-t pad-b wrapper">
+    {% pattern buttons/special-button text="Donate" color="btn-orange" link="#" %}
+  </div>
 
 </div>
