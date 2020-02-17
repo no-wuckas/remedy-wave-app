@@ -8,6 +8,7 @@ patterns:
     title: "Header"
     description: |
       This is a simple header that will be placed on top of the main banner using a background transperancy. This is also part of the default layout.
+    background: "--color-secondary-light-blue"
     fields:
       - name: text
         type: string
@@ -19,3 +20,4 @@ patterns:
     title: "Navigation"
     description: |
       This is a simple navigation that will be added to the main header. It contains the dropdown menu content.
+    background: "--color-accent-green-light"

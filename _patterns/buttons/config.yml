@@ -9,6 +9,7 @@ patterns:
     title: "Main Button"
     description: |
       Main button used throughout the web app.
+    background: "--color-secondary-light-blue"
     fields:
       - name: text
         type: string
@@ -23,3 +24,4 @@ patterns:
     title: "Special Button"
     description: |
       The button used for the donation form.
+    background: "--color-accent-purple"
