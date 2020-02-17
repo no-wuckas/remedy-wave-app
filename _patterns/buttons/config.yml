@@ -6,9 +6,10 @@ description: |
 
 patterns:
   button:
-    title: "Main Button"
+    title: "Main"
     description: |
       Main button used throughout the web app.
+    background: "--color-secondary-light-blue"
     fields:
       - name: text
         type: string
