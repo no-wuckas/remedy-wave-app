@@ -8,6 +8,7 @@ patterns:
     title: "Info Card"
     description: |
       Info card can be used to describe each cause and directs the user to the organizations pages for each.
+    width: 20em
     fields:
       - name: title
         type: string
@@ -18,3 +19,6 @@ patterns:
       - name: icon
         type: string
         example: "humanaid-icon"
+      - name: button_link
+        type: string
+        example: "#"

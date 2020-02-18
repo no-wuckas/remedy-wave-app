@@ -6,13 +6,21 @@ description: |
 
 patterns:
   button:
-    title: "Main Button"
+    title: "Main"
     description: |
       Main button used throughout the web app.
+    background: "--color-secondary-light-blue"
     fields:
+      - name: text
+        type: string
+        example: "Donate"
       - name: color
         type: string
         example: "btn-orange"
       - name: link
         type: string
         example: "#"
+  special-button:
+    title: "Special Button"
+    description: |
+      The button used for the donation form.

@@ -4,7 +4,7 @@ description: |
   Sections are combined with text, images, buttons, cards, and navigation.
 patterns:
   text:
-    title: "Text Banners"
+    title: "Text Section"
     description: |
       This will be full width web banners that contains 2 text paragraphs with an subheader discussing the topic at hand. Background will always remain white and the text will always remain this variation of blue text.
     fields:
@@ -58,20 +58,19 @@ patterns:
       - name: link5
         type: string
         example: "#"
+  double-logo-line:
+    title: "Double Logo Line"
+    description: |
+      This will be a banner that has a header discussing the topic at hand (whichever awareness program our page is on) and 2 icon rows below (for that organization).
   interactive-map:
     title: "Interactive Map"
     description: |
       This will be a banner that contains an illustrative map that will have javascript features. Everytime users hover over a map section, a navigation pin will show up and discuss the issue within that map area.
-      patterns:
-  double-logo-line:
-    title: "Double Logo Line"
-    description: |
-      This will be a banner that has a header discussing the topic at hand (whichever awareness program our page is on) and 2 icon rows below )for that organization).
   text-with-logo:
-    title: "Text with our Logo to Left"
+    title: "Text & Logo Section"
     description: |
       This will be a banner that discusses who we are and what our company does. Beside this description there is the logo to the left in it's own containing div.
   multiple-cards:
-    title: "Banner containing Multiple Cards"
+    title: "Multiple Card Section"
     description: |
       This will be a full width banner that contains 4 cards relating to our our 4 topics. Each card will contain an icon for that specific cause, with a title + description below. Below the description we've attached a button that will redirect the user to that causes specific page for donation purposes.
